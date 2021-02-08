@@ -5,7 +5,7 @@ matrix:
     env: OS_BUILD=osx
   - os: linux
     env: OS_BUILD=linux
-    dist: xenial
+    dist: alphine
     sudo: required
     before_install:
     - sudo apt-get install -y libx11-dev libxext-dev libxrender-dev libxtst-dev libxt-dev
